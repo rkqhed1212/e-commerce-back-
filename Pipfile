@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.2.5"
+django-countries = "*"
+pillow = "*"
+django-admin-rangefilter = "*"
+django-admin-numeric-filter = "*"
+django-rest-knox = "*"
+djangorestframework = "*"
+cffi = "*"
+graphene-django = "*"
+environ = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
